@@ -19,7 +19,7 @@ A text classification system that automatically detects cyberbullying in online 
 | Labels | `No` (normal) / `Yes` (bullying) |
 | Class distribution | ~12,295 normal / ~852 bullying |
 
-Download dataset
+Download file csv
 📦 [Download from Google Drive](https://drive.google.com/drive/folders/1wMpf_xQA0_NH8-xDWAxu7Pxdw085LJgj?usp=drive_link)
 ---
 
