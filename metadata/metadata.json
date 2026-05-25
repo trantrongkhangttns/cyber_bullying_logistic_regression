@@ -1,0 +1,13 @@
+{
+  "threshold": 0.49617072235446824,
+  "model_type": "LogisticRegression",
+  "tfidf_features": 10000,
+  "ngram_range": "(1,2)",
+  "test_f1": 0.531,
+  "test_recall": 0.678,
+  "test_precision": 0.436,
+  "labels": {
+    "0": "normal",
+    "1": "bullying"
+  }
+}
