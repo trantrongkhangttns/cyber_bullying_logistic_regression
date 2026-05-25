@@ -21,6 +21,7 @@ A text classification system that automatically detects cyberbullying in online 
 
 Download file csv
 📦 [Download from Google Drive](https://drive.google.com/drive/folders/1wMpf_xQA0_NH8-xDWAxu7Pxdw085LJgj?usp=drive_link)
+
 ---
 
 ## ⚙️ Pipeline
@@ -41,33 +42,43 @@ Raw Text → Preprocessing → TF-IDF Vectorization → Model Training → Evalu
 
 ---
 
+
 ## 🤖 Models Compared
+
+### Part 1 — Classifier Group
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| **Logistic Regression** ⭐ | **98.21%** | **98.19%** | **98.21%** | **98.18%** |
-| C-Support Vector Classifier | 98.09% | 98.07% | 98.09% | 98.06% |
-| Multinomial Naive Bayes | 98.03% | 98.09% | 98.03% | 98.00% |
-| XGBoost | 97.79% | 97.87% | 97.79% | 97.74% |
-| Random Forest Classifier | 97.43% | 97.50% | 97.43% | 97.32% |
-| Decision Tree Classifier | 97.01% | 96.96% | 97.01% | 96.98% |
+| SVC | 0.9224 | 0.4267 | 0.5614 | 0.4848 |
+| MultinomialNB | 0.8806 | 0.3103 | 0.6842 | 0.4270 |
+| Decision Tree | 0.8996 | 0.3147 | 0.4620 | 0.3744 |
 
-> ✅ **Logistic Regression** was selected as the final model due to best overall performance.
+### Part 2 — Advanced Models
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|--------|----------|
+| **Logistic Regression** ⭐ | **0.9228** | **0.4380** | **0.6608** | **0.5268** |
+| XGBoost | 0.9449 | 0.7826 | 0.2105 | 0.3318 |
+| Random Forest | 0.9414 | 0.7576 | 0.1462 | 0.2451 |
+
+> ✅ **Logistic Regression** was selected as the final model — best balance between Recall and F1-Score, which matters most for detecting bullying cases.
 
 ---
 
 ## 🏆 Final Model — Logistic Regression (Threshold-tuned)
 
-After threshold tuning on the saved model:
-
-| Metric | Score |
-|--------|-------|
-| Threshold | 0.4962 |
+| Property | Value |
+|----------|-------|
+| Model type | Logistic Regression |
+| TF-IDF features | 10,000 |
+| N-gram range | (1, 2) |
+| Threshold (tuned) | 0.4962 |
 | F1-Score | 0.531 |
 | Recall | 0.678 |
 | Precision | 0.436 |
+| Labels | `0` = normal, `1` = bullying |
 
-> Note: Threshold was tuned to prioritize **Recall** — minimizing missed bullying cases is more critical than false positives in this context.
+> Threshold was tuned to prioritize **Recall** — missing a bullying case is more costly than a false positive.
 
 ---
 
