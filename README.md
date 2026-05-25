@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 The trained model files are stored on Google Drive (too large for GitHub):
 
-📦 [Download from Google Drive](YOUR_DRIVE_LINK_HERE) — includes:
+📦 [Download from Google Drive](https://drive.google.com/drive/folders/1FoGMncHcccmejjwqTql-Aim617NDv5BR?usp=sharing) — includes:
 - `lr_model.pkl` (79 KB)
 - `tfidf_vectorizer.pkl` (370 KB)
 
