@@ -20,7 +20,7 @@ A text classification system that automatically detects cyberbullying in online 
 | Class distribution | ~12,295 normal / ~852 bullying |
 
 Download dataset
-📦 [Download from Google Drive]([https://drive.google.com/drive/folders/1FoGMncHcccmejjwqTql-Aim617NDv5BR?usp=sharing](https://drive.google.com/drive/folders/1wMpf_xQA0_NH8-xDWAxu7Pxdw085LJgj?usp=sharing))
+📦 [Download from Google Drive](https://drive.google.com/drive/folders/1wMpf_xQA0_NH8-xDWAxu7Pxdw085LJgj?usp=drive_link)
 ---
 
 ## ⚙️ Pipeline
@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 **3. Download model files**
 
-The trained model files are stored on Google Drive (too large for GitHub):
+The trained model files are stored on Google Drive:
 
 📦 [Download from Google Drive](https://drive.google.com/drive/folders/1FoGMncHcccmejjwqTql-Aim617NDv5BR?usp=sharing) — includes:
 - `lr_model.pkl` (79 KB)
