@@ -47,8 +47,8 @@ Raw Text → Preprocessing → TF-IDF Vectorization → Model Training → Evalu
 |-------|----------|-----------|--------|----------|
 | **Logistic Regression** ⭐ | **98.21%** | **98.19%** | **98.21%** | **98.18%** |
 | C-Support Vector Classifier | 98.09% | 98.07% | 98.09% | 98.06% |
-| Epsilon-Support Vector Regression | 98.03% | 98.09% | 98.03% | 98.00% |
-| Ridge Classifier | 97.79% | 97.87% | 97.79% | 97.74% |
+| Multinomial Naive Bayes | 98.03% | 98.09% | 98.03% | 98.00% |
+| XGBoost | 97.79% | 97.87% | 97.79% | 97.74% |
 | Random Forest Classifier | 97.43% | 97.50% | 97.43% | 97.32% |
 | Decision Tree Classifier | 97.01% | 96.96% | 97.01% | 96.98% |
 
