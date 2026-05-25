@@ -130,5 +130,5 @@ jupyter notebook notebooks/Project_Cyber_Bullying.ipynb
 
 ## 👤 Author
 
-**Trần Trọng Khánh**  
-📎 [GitHub](https://github.com/trantrongkhangtns)
+**Trần Trọng Khang**  
+📎 [GitHub](https://github.com/trantrongkhangttns)
