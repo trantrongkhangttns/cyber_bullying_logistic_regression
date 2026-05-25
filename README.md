@@ -102,7 +102,7 @@ cyber_bullying_logistic_regression/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/trantrongkhangtns/cyber_bullying_logistic_regression
+git clone https://github.com/trantrongkhangttns/cyber_bullying_logistic_regression
 cd cyber_bullying_logistic_regression
 ```
 
